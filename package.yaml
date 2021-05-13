@@ -1,0 +1,21 @@
+name:
+version:     0.1.0.0
+synopsis:
+description:
+category:
+github:      chuahou/
+maintainer:  Chua Hou <human+github@chuahou.dev>
+
+ghc-options:
+    - -Wall
+    - -fwarn-incomplete-uni-patterns
+    - -fwarn-incomplete-record-updates
+    - -static
+    - -threaded
+
+default-extensions:
+    - LambdaCase
+    - TupleSections
+
+dependencies:
+    - base >= 4.13 && < 5
